@@ -3,6 +3,7 @@
 # Install zsh
 sudo apt-get update
 sudo apt-get install zsh -y
+sudo apt-get install git -y
 
 # Install necessary zsh plugins
 git clone https://github.com/zsh-users/zsh-autosuggestions /usr/share/zsh/plugins/zsh-autosuggestions
