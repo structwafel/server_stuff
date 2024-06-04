@@ -11,7 +11,6 @@ git clone https://github.com/hlissner/zsh-autopair.git /usr/share/zsh/plugins/zs
 
 # Install other necessary tools
 sudo apt-get install ssh -y
-sudo apt-get install golang-go -y
 sudo apt-get install fzf -y
 sudo apt-get install tree -y
 curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh | sh
