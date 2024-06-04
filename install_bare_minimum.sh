@@ -14,7 +14,7 @@ sudo apt-get install ssh -y
 sudo apt-get install golang-go -y
 sudo apt-get install fzf -y
 sudo apt-get install tree -y
-bash <(curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh)
+curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh | sh
 curl -sS https://starship.rs/install.sh | sh
 
 # Create .zshrc file
