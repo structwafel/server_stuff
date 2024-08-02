@@ -14,6 +14,7 @@ git clone https://github.com/hlissner/zsh-autopair.git /usr/share/zsh/plugins/zs
 sudo apt-get install ssh -y
 sudo apt-get install fzf -y
 sudo apt-get install tree -y
+sudo apt-get install eza -y
 curl --proto '=https' --tlsv1.2 -sSf https://setup.atuin.sh | sh
 curl -sS https://starship.rs/install.sh | sh
 
